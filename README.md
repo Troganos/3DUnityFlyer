@@ -1,2 +1,2 @@
 # 3DUnityFlyer
-A Flyer Game
+A Flyer Game by Bas van Wieringen en Kevin Koek
