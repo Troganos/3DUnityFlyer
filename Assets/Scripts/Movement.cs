@@ -20,13 +20,13 @@ public class Movement : MonoBehaviour
         if (Input.GetKey("a"))
         {
 
-            rb.AddForce(-DirectionalF, 0, 0);
+            rb.AddForce(-DirectionalF, 0, 0, ForceMode.VelocityChange);
 
         }
         if (Input.GetKey("d"))
         {
             
-            rb.AddForce(DirectionalF, 0, 0);
+            rb.AddForce(DirectionalF, 0, 0, ForceMode.VelocityChange);
 
         }
     }
