@@ -12,7 +12,6 @@ public class Movement : MonoBehaviour
 
     void FixedUpdate()
     {
-
         rb.AddForce(0, 0, ForwardF * Time.deltaTime);
 
         rb.AddForce(0, -DownF * Time.deltaTime, 0);
